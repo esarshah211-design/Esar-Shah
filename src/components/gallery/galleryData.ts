@@ -1,0 +1,68 @@
+import { GalleryItem } from './GalleryLightbox';
+
+export const initialGalleryItems: GalleryItem[] = [
+  {
+    id: 'gal-1',
+    title: 'Welcoming Café Seating',
+    category: 'Ambiance',
+    type: 'cafe_interior',
+    description: 'A cozy corner designed for comfortable conversations, remote work, and quiet coffee moments.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-2',
+    title: 'Precision Espresso Extraction',
+    category: 'Coffee & Beverages',
+    type: 'barista_craft',
+    description: 'Freshly ground premium beans calibrated for rich crema, bold aroma, and balanced acidity.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-3',
+    title: 'Velvety Latte Art Rosette',
+    category: 'Coffee & Beverages',
+    type: 'cappuccino',
+    description: 'Steamed microfoam poured into handcrafted espresso with silky texture.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-4',
+    title: 'Golden French Croissants',
+    category: 'Bakes & Fare',
+    type: 'croissant',
+    description: 'Flaky all-butter pastries baked daily for the quintessential morning pairing.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-5',
+    title: 'Iced Shaken Refreshers',
+    category: 'Coffee & Beverages',
+    type: 'iced_latte',
+    description: 'Chilled signature iced beverages hand-shaken with cold sweet foam.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-6',
+    title: 'Ceremonial Uji Matcha Latte',
+    category: 'Coffee & Beverages',
+    type: 'matcha',
+    description: 'Traditional Japanese stone-ground green tea whisked with textured whole milk.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-7',
+    title: 'Artisanal Pressed Paninis',
+    category: 'Bakes & Fare',
+    type: 'sandwich',
+    description: 'Crisp sourdough stuffed with savory ingredients and melted cheese.',
+    isOwnerSubmitted: false,
+  },
+  {
+    id: 'gal-8',
+    title: 'Evening Atmosphere & Lighting',
+    category: 'Ambiance',
+    type: 'patio_evening',
+    description: 'Warm ambient lighting setting an inviting mood as daytime transitions to night.',
+    isOwnerSubmitted: false,
+  },
+];

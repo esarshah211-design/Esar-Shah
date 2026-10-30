@@ -1,0 +1,6 @@
+{
+  "name": "KS CAFE",
+  "description": "Discover KS CAFE. Explore our menu, find our verified location, check operating hours, and plan your visit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

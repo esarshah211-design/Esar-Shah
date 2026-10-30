@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-espresso: #3B241C;
+  --color-espresso-hover: #291710;
+  --color-espresso-dark: #1F120D;
+  --color-olive: #687653;
+  --color-olive-hover: #4D5B3C;
+  --color-caramel: #C58B54;
+  --color-caramel-hover: #B07843;
+  --color-cream: #FAF6EF;
+  --color-cream-subtle: #F3ECE1;
+  --color-surface: #FFFFFF;
+  --color-charcoal: #292622;
+  --color-muted: #6B665F;
+  --color-border: #E6DED2;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+  --color-primary: #3B241C;
+  --color-secondary: #687653;
+  --color-accent: #C58B54;
+  --color-bg: #FAF6EF;
+  --color-card: #FFFFFF;
+  --color-text: #292622;
+  --color-muted-text: #6B665F;
+  --color-borders: #E6DED2;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom focus ring styling for accessible focus navigation */
+:focus-visible {
+  outline: 2px solid #C58B54;
+  outline-offset: 2px;
+}

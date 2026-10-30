@@ -1,0 +1,943 @@
+# PROJECT: KS CAFE — Premium, Responsive Café Website
+
+Act as a senior UI/UX designer, brand strategist, conversion copywriter, frontend developer, and local SEO specialist.
+
+Design and develop a complete, polished, client-presentable website for **KS CAFE**, a café business identified through its Google Business Profile.
+
+Google Business Profile:
+https://maps.app.goo.gl/ypch6kTP9UQMMmAE6
+
+The goal is to create a visually impressive, modern website that helps potential customers discover the café, explore its verified menu, understand its location, and take action.
+
+This is a real-business website demonstration. Prioritize authenticity, visual quality, accessibility, performance, mobile usability, and practical business value.
+
+Do not build a generic restaurant template. Create a distinctive independent-café experience using the branding, content strategy, and requirements below.
+
+## 1. BUSINESS INFORMATION AND DATA INTEGRITY
+
+Known business name: KS CAFE.
+
+Business category: Café / food and beverage, subject to owner confirmation.
+
+The complete street address, telephone number, WhatsApp number, actual menu, prices, opening hours, rating, reviews, existing logo, and exact services have not yet been verified.
+
+Use centralized, editable business configuration data.
+
+Create fields for:
+
+- Business name.
+- Business category.
+- Short business description.
+- Full business address.
+- Town and locality.
+- Latitude and longitude.
+- Telephone number.
+- WhatsApp number.
+- Email address.
+- Opening hours for each day.
+- Google Business Profile URL.
+- Google Maps directions URL.
+- Social media URLs.
+- Menu categories.
+- Menu items and prices.
+- Gallery photographs.
+- Verified customer reviews, if appropriate.
+- Confirmed business services.
+
+Use the provided Google Business Profile URL as the starting reference. Confirm the exact map destination before configuring the directions button or embedding a map.
+
+Never invent business facts, customer reviews, ratings, awards, customer counts, operating hours, discounts, menu items, food prices, founding dates, staff identities, or business history.
+
+Use realistic but clearly labelled placeholders for missing information.
+
+Do not show placeholder contact details as actual contact information.
+
+Do not publish sample menu entries as the café's real menu.
+
+Create an obvious development configuration or content-management structure that makes replacing placeholder content straightforward.
+
+Keep demo-only content separate from verified production content.
+
+Where information is missing, prefer hiding an unverified claim or showing a clearly labelled editable placeholder rather than presenting it as fact.
+
+## 2. WEBSITE OBJECTIVES
+
+Primary objective:
+Help visitors discover KS CAFE and find its verified location.
+
+Secondary objectives:
+
+1. Let visitors explore the menu.
+2. Present the café's atmosphere through photography.
+3. Make verified contact information easy to access.
+4. Link visitors to genuine Google reviews.
+5. Support enquiries through configured contact channels.
+6. Help search engines understand the business and its location.
+7. Give the owner a website that can be updated without redesigning it.
+
+The main conversion action must be GET DIRECTIONS.
+
+Secondary actions should include VIEW MENU and CALL, with CALL appearing only when a verified telephone number is configured.
+
+Add WhatsApp functionality only if a verified WhatsApp number is supplied.
+
+## 3. BRAND IDENTITY AND ART DIRECTION
+
+Create a warm, modern, premium-but-approachable independent-café identity.
+
+The website should feel carefully art-directed rather than generated from a generic business template.
+
+Brand characteristics:
+
+- Warm.
+- Contemporary.
+- Welcoming.
+- Authentic.
+- Appetizing.
+- Professional.
+- Locally relevant.
+- Visually refined.
+
+Avoid an unnecessarily luxurious black-and-gold aesthetic, excessive decorative elements, oversized animations, overcrowded cards, and generic AI-generated food imagery.
+
+### Required color palette
+
+Use CSS variables or design tokens.
+
+Primary espresso brown: #3B241C
+
+Secondary olive green: #687653
+
+Accent caramel: #C58B54
+
+Main background: #FAF6EF
+
+Card surface: #FFFFFF
+
+Main text: #292622
+
+Muted text: #6B665F
+
+Borders: #E6DED2
+
+Primary button: #3B241C
+
+Primary button hover: #291710
+
+Secondary button: #687653
+
+Secondary button hover: #4D5B3C
+
+Use white text on dark buttons. Ensure text and interface contrast meet WCAG 2.2 AA requirements where applicable.
+
+Do not use caramel-colored text on cream backgrounds for small text if contrast is insufficient.
+
+Use the accent color sparingly for highlights, dividers, decorative details, and selected icons.
+
+### Typography
+
+Load these Google Fonts:
+
+- Playfair Display for major headings.
+- Inter for body text, navigation, buttons, forms, and interface labels.
+
+Use heading weights of 600–700 and body weights of 400–600.
+
+Suggested desktop typography:
+
+- Hero heading: 56–68px.
+- H1: 52–64px.
+- H2: 36–44px.
+- H3: 24–28px.
+- Body: 16–18px.
+- Buttons: 15–16px.
+
+Suggested mobile typography:
+
+- Hero heading: 36–44px.
+- H2: 28–34px.
+- H3: 22–26px.
+- Body: 16px.
+
+Use fluid sizing with CSS clamp() where appropriate.
+
+Ensure long headings wrap naturally and do not overflow small screens.
+
+## 4. LOGO AND FAVICON
+
+If the owner provides an existing logo, preserve its recognizable elements while improving spacing, legibility, and responsive presentation.
+
+If no logo exists, create an original typographic KS CAFE identity.
+
+Suggested concept:
+
+- A simple coffee-cup symbol.
+- A subtle steam motif.
+- A bold KS monogram.
+- The word CAFE in smaller supporting typography.
+
+Use espresso brown and cream, with optional olive accents.
+
+Create:
+
+1. Horizontal logo for the header.
+2. Compact logo for mobile.
+3. Footer logo.
+4. Square favicon or app icon.
+
+Do not copy another company's logo or trademark.
+
+Do not claim that the proposed concept is the café's existing official logo.
+
+## 5. REQUIRED WEBSITE PAGES
+
+Build the following pages with reusable components and consistent branding.
+
+### Page A: Home
+
+Include:
+
+- Optional announcement bar.
+- Responsive navigation.
+- Hero section.
+- Verified business information.
+- Menu highlights.
+- About section.
+- Reasons to visit.
+- Photo gallery preview.
+- Genuine review integration or Google review link.
+- Location and opening hours.
+- Frequently asked questions.
+- Final call-to-action.
+- Footer.
+
+### Page B: Menu
+
+Include:
+
+- Page heading.
+- Short introduction.
+- Menu categories.
+- Reusable menu cards.
+- Item photographs.
+- Item names.
+- Descriptions.
+- Prices in PKR, when verified.
+- Optional dietary information, only when confirmed.
+
+Do not invent a menu.
+
+Build the menu system to accept real items easily.
+
+If no verified menu data is supplied, display a clear development placeholder or a friendly message explaining that the menu will be updated.
+
+Do not publish fabricated sample items or prices as genuine products.
+
+### Page C: About
+
+Include:
+
+- Business introduction.
+- Café photography.
+- A section for the owner's approved business story.
+- A section for confirmed differentiators.
+- A directions CTA.
+
+Do not invent the founder's identity, background, opening date, or achievements.
+
+### Page D: Gallery
+
+Include:
+
+- Responsive image grid.
+- Appropriate image aspect ratios.
+- Accessible image-lightbox interaction.
+- Keyboard navigation.
+- Close controls.
+- Useful alt text.
+- Lazy loading for noncritical images.
+
+Use authentic photographs when available.
+
+### Page E: Contact and Location
+
+Include:
+
+- Verified address.
+- Verified phone number.
+- Verified WhatsApp number, if available.
+- Confirmed opening hours.
+- Google Maps directions link.
+- Optional map embed.
+- Contact form, if configured.
+- Google Business Profile link.
+
+Hide unavailable contact actions instead of creating fake links.
+
+## 6. HOMEPAGE DESIGN AND CONTENT
+
+### Section 1: Announcement bar
+
+Use a slim announcement bar with an espresso background.
+
+Suggested copy:
+
+"Welcome to KS CAFE. Explore our menu and plan your visit."
+
+Include a View Menu link.
+
+Do not invent promotional offers.
+
+### Section 2: Header
+
+Place the logo on the left.
+
+Navigation links:
+
+Home | Menu | About | Gallery | Contact
+
+Place a prominent Get Directions button on desktop.
+
+Make the header sticky if it improves navigation without taking up excessive mobile screen space.
+
+Use a mobile hamburger menu with accessible keyboard and screen-reader behavior.
+
+### Section 3: Hero
+
+Create a visually distinctive hero with text on one side and a large photographic area on the other.
+
+Suggested headline:
+
+"Good Moments Start at KS CAFE"
+
+Supporting text:
+
+"Discover our café, explore the menu, and find everything you need to plan your next visit."
+
+Primary CTA: Explore Our Menu
+
+Secondary CTA: Get Directions
+
+Use a licensed café photograph for the initial demo.
+
+Prefer a large, well-composed photograph with warm natural lighting and realistic colors.
+
+Do not present stock photography as a real photograph of KS CAFE.
+
+If the actual menu is not confirmed, avoid making specific claims about coffee, signature dishes, or other offerings.
+
+### Section 4: Business information
+
+Create a clean row of information cards for verified details.
+
+Possible cards:
+
+- Location.
+- Opening hours.
+- Phone number.
+- Available service options.
+
+Show only confirmed information.
+
+Do not display fake ratings or fabricated trust badges.
+
+### Section 5: Menu highlights
+
+Heading:
+
+"A Look at Our Menu"
+
+Supporting copy:
+
+"Explore the items available at KS CAFE and find something for your next visit."
+
+CTA: View Full Menu
+
+Use reusable menu cards with consistent image ratios, typography, and spacing.
+
+Only display real menu items and confirmed prices in production.
+
+### Section 6: About
+
+Heading:
+
+"A Little About KS CAFE"
+
+Copy:
+
+"Get to know KS CAFE, explore what we offer, and discover where to find us. We look forward to welcoming you."
+
+Use an authentic café photograph when available.
+
+Provide editable fields for the business description and approved brand story.
+
+### Section 7: Reasons to visit
+
+Heading:
+
+"Your Next Café Visit Starts Here"
+
+Create three cards:
+
+1. Explore the Menu.
+2. Plan Your Visit.
+3. Get in Touch.
+
+Use subtle icons and concise copy.
+
+Describe practical website benefits, not unverified claims about food quality, service, or customer satisfaction.
+
+### Section 8: Gallery
+
+Heading:
+
+"Take a Look Around"
+
+Supporting copy:
+
+"Explore photos of KS CAFE, its menu, and its surroundings."
+
+CTA: View Gallery
+
+Use an asymmetric desktop grid and a responsive mobile layout.
+
+### Section 9: Reviews
+
+Heading:
+
+"What Customers Are Saying"
+
+Provide a link to the verified Google Business Profile.
+
+Only show actual reviews when their content and attribution have been verified.
+
+Do not fabricate testimonials, customer names, review dates, or star ratings.
+
+If verified review content is unavailable, display a simple invitation to read reviews on Google.
+
+### Section 10: Location
+
+Heading:
+
+"Find KS CAFE"
+
+Supporting copy:
+
+"Planning a visit? Check our location and confirmed opening hours before heading over."
+
+CTA: Get Directions
+
+Include a map or directions link only after confirming the destination.
+
+### Section 11: FAQ
+
+Create an accessible accordion.
+
+Suggested questions:
+
+- Where is KS CAFE located?
+- What is available on the menu?
+- What are your opening hours?
+- How can I contact the café?
+- Is takeaway or delivery available?
+
+Answers must use confirmed information or clearly marked placeholders.
+
+Do not imply that delivery, takeaway, or reservations exist unless confirmed.
+
+### Section 12: Final CTA
+
+Heading:
+
+"Plan Your Visit to KS CAFE"
+
+Supporting text:
+
+"Explore our menu, check our location, and get in touch if you have any questions."
+
+Primary CTA: Get Directions
+
+Secondary CTA: View Menu
+
+Use a deep espresso background with cream typography and restrained decorative accents.
+
+### Section 13: Footer
+
+Include:
+
+- Logo.
+- Short introduction.
+- Page navigation.
+- Verified address.
+- Verified phone number.
+- Confirmed opening hours.
+- Directions link.
+- Google Business Profile link.
+- Verified social media links.
+- Appropriate privacy information.
+- Copyright notice.
+
+Do not invent social media profiles or contact details.
+
+## 7. COMPONENT ARCHITECTURE
+
+Create reusable components such as:
+
+- AnnouncementBar.
+- Header.
+- MobileNavigation.
+- HeroSection.
+- BusinessInformation.
+- SectionHeading.
+- MenuCard.
+- MenuCategory.
+- MenuGrid.
+- AboutSection.
+- FeatureCard.
+- GalleryGrid.
+- GalleryLightbox.
+- ReviewSection.
+- FAQAccordion.
+- LocationSection.
+- ContactForm.
+- StickyMobileActions.
+- Footer.
+- PrimaryButton.
+- SecondaryButton.
+
+Maintain consistent spacing, button behavior, typography, and card styling across the site.
+
+Centralize repeated business content and design tokens.
+
+Avoid unnecessary code duplication.
+
+## 8. FUNCTIONALITY
+
+Every visible control must have a meaningful, working behavior.
+
+### Navigation
+
+- All navigation links must work.
+- Mobile navigation must open and close correctly.
+- Navigation must support keyboard interaction.
+- The current page should be identifiable where appropriate.
+- Focus indicators must remain visible.
+
+### Directions
+
+Use the verified Google Maps destination.
+
+If the correct destination cannot be confirmed, keep the URL editable and clearly marked as a placeholder.
+
+### Calling
+
+Use a tel: link for the verified business number.
+
+Hide the calling action if no verified number is available.
+
+### WhatsApp
+
+If a verified WhatsApp number is supplied, implement a working wa.me link with a URL-encoded default enquiry message.
+
+Do not invent a number.
+
+### Menu
+
+- Menu cards should be generated from editable data.
+- Category filters should work if implemented.
+- Prices must be accurate.
+- Missing prices must not be replaced with fabricated values.
+- Images should have suitable alt text.
+
+### Gallery
+
+- Images should open in an accessible lightbox when clicked.
+- Include a visible close button.
+- Support Escape to close.
+- Support keyboard navigation where applicable.
+- Return focus to the initiating element when the lightbox closes.
+
+### Contact form
+
+If a working contact service is configured, implement:
+
+- Name.
+- Contact information.
+- Enquiry type.
+- Message.
+- Appropriate consent information.
+- Client-side validation.
+- Server-side validation where applicable.
+- Spam protection.
+- Loading state.
+- Success state.
+- Error state.
+
+Never display a success message if submission has failed.
+
+If no backend or form provider is configured, clearly identify the form as a demo and explain that it requires connection before launch. Do not silently discard customer messages.
+
+## 9. ANIMATIONS AND MICROINTERACTIONS
+
+Use restrained, high-quality animations.
+
+Implement:
+
+- Smooth scrolling for in-page links.
+- Subtle hero entrance animation.
+- Gentle section reveal.
+- Small menu-card image zoom.
+- Button hover transitions.
+- Accessible FAQ accordion transitions.
+- Smooth mobile navigation.
+- Optional sticky-header transition.
+- Gallery transitions.
+
+Keep transitions approximately 150–300 milliseconds where suitable.
+
+Avoid heavy animation dependencies unless required.
+
+Respect the prefers-reduced-motion setting.
+
+Do not delay essential content or interaction while animations play.
+
+Animations must not interfere with keyboard accessibility, scrolling, or form submission.
+
+## 10. MOBILE-FIRST RESPONSIVE DESIGN
+
+Design for mobile, tablet, laptop, and desktop.
+
+Test at widths around:
+
+- 320px.
+- 375px.
+- 430px.
+- 768px.
+- 1024px.
+- 1440px and wider.
+
+Requirements:
+
+- No horizontal overflow.
+- Responsive typography.
+- Appropriate image cropping.
+- Consistent spacing.
+- Touch targets approximately 44 × 44 CSS pixels or larger.
+- Legible paragraphs.
+- Comfortable form controls.
+- Accessible mobile navigation.
+- No overlapping buttons.
+- No text clipped by cards.
+- No fixed elements covering important content.
+
+On mobile, provide a compact bottom action bar with Directions, Call, and Menu when appropriate.
+
+Only display Call if a verified phone number exists.
+
+Ensure the bottom action bar does not obstruct page content or keyboard focus.
+
+## 11. ACCESSIBILITY
+
+Aim for WCAG 2.2 AA compliance.
+
+Implement:
+
+- Semantic HTML.
+- Correct heading hierarchy.
+- Keyboard-accessible navigation.
+- Visible focus indicators.
+- Sufficient color contrast.
+- Descriptive form labels.
+- Accessible error messages.
+- Appropriate ARIA attributes where necessary.
+- Alt text for meaningful images.
+- Empty alt text for decorative images.
+- Accessible dialogs and accordions.
+- Reduced-motion support.
+- Clear button labels.
+- Logical focus order.
+
+Do not rely exclusively on color or animation to communicate information.
+
+## 12. LOCAL SEO
+
+Implement basic local SEO using verified business details.
+
+### Metadata
+
+Suggested homepage title:
+
+"KS CAFE | Cafe in [Verified Locality]"
+
+Suggested meta description:
+
+"Discover KS CAFE in [Verified Locality]. Explore our menu, check opening hours, find directions and contact us before your visit."
+
+Replace the locality placeholder before publication.
+
+### Heading structure
+
+Use one clear H1 per page and logical H2/H3 headings.
+
+### Structured data
+
+Use JSON-LD with the most appropriate valid schema type.
+
+CafeOrCoffeeShop may be appropriate if it accurately represents the business.
+
+Populate relevant fields only when verified:
+
+- Business name.
+- Website URL.
+- Telephone number.
+- Postal address.
+- Geographic coordinates.
+- Opening hours.
+- Images.
+- Official social profiles.
+- Relevant offerings.
+
+Do not create fabricated ratings, review counts, or prices.
+
+Do not add review or aggregate-rating markup simply to influence search appearance.
+
+### Technical SEO
+
+Implement:
+
+- Unique page titles.
+- Meta descriptions.
+- Canonical URLs.
+- XML sitemap.
+- Robots.txt.
+- HTTPS compatibility.
+- Clean URL paths.
+- Responsive images.
+- Internal links.
+- Appropriate image alt text.
+- Open Graph metadata.
+- Favicon.
+- Search-engine-friendly rendering.
+
+Use verified location terms naturally in relevant content.
+
+Do not guarantee rankings.
+
+## 13. PERFORMANCE
+
+Prioritize fast loading and a smooth experience on mobile connections.
+
+Requirements:
+
+- Compress images.
+- Prefer WebP or AVIF where appropriate.
+- Use responsive image sources.
+- Lazy-load below-the-fold images.
+- Avoid unnecessary JavaScript.
+- Minimize third-party dependencies.
+- Avoid autoplay video.
+- Prevent layout shifts by specifying image dimensions.
+- Load fonts efficiently.
+- Avoid excessive DOM complexity.
+
+Target good Core Web Vitals:
+
+- LCP: 2.5 seconds or less.
+- INP: 200 milliseconds or less.
+- CLS: 0.1 or less.
+
+These are performance targets, not guaranteed results.
+
+## 14. IMAGE LICENSING AND AUTHENTICITY
+
+For the initial demonstration, use appropriately licensed commercial-use stock images.
+
+Alternatively, use clearly labelled image placeholders.
+
+Do not download or reuse photographs from the Google Business Profile without appropriate permission.
+
+Do not present stock images as actual KS CAFE interiors, employees, owners, or menu items.
+
+Use authentic business photography once the owner supplies it.
+
+Store image references in an organized, editable structure.
+
+Optimize image size and quality without making the photographs look artificial.
+
+## 15. DESIGN QUALITY REQUIREMENTS
+
+The finished website should look like a professional designer created it specifically for a café.
+
+Use:
+
+- Strong visual hierarchy.
+- Carefully controlled whitespace.
+- Consistent alignment.
+- A restrained color palette.
+- High-quality typography.
+- Consistent image ratios.
+- Well-designed buttons.
+- Subtle borders and shadows.
+- Clear section transitions.
+- Thoughtful desktop and mobile layouts.
+
+Avoid:
+
+- Generic AI-looking layouts.
+- Excessive gradients.
+- Random decorative blobs.
+- Unnecessary glassmorphism.
+- Too many competing colors.
+- Overloaded cards.
+- Excessive rounded containers.
+- Fake review carousels.
+- Invented statistics.
+- Broken links.
+- Empty sections.
+- Unnecessary popups.
+- Fake booking systems.
+- Placeholder information presented as fact.
+
+Use a consistent spacing scale and border-radius system.
+
+The design should remain distinctive without becoming visually noisy.
+
+## 16. CONTENT MANAGEMENT AND EDITABILITY
+
+Make it easy to update:
+
+- Business name.
+- Description.
+- Address.
+- Telephone number.
+- WhatsApp number.
+- Opening hours.
+- Menu categories.
+- Menu items.
+- Prices.
+- Gallery images.
+- Review links.
+- Social media links.
+- SEO metadata.
+
+Use a centralized configuration file or a suitable content-management mechanism supported by the selected stack.
+
+Do not require editing many separate components to change one business detail.
+
+If the project supports environment variables, use them for appropriate configuration values.
+
+Never expose API keys, private credentials, or secrets in frontend code.
+
+Do not add a full CMS unless it materially benefits the project. A well-organized editable content structure is sufficient for the initial demo.
+
+## 17. TECHNICAL IMPLEMENTATION
+
+Use the existing Emergent-supported development environment and a modern, maintainable frontend stack.
+
+Prefer:
+
+- React or the environment's supported equivalent.
+- TypeScript if supported.
+- Reusable components.
+- Semantic HTML.
+- Modern CSS or a suitable styling framework.
+- Lightweight animation techniques.
+- Organized assets.
+- Clear configuration.
+- Responsive layout utilities.
+
+Do not change the project stack unnecessarily if Emergent has already established one.
+
+Keep dependencies to a reasonable minimum.
+
+Provide clear component boundaries and maintainable code.
+
+Ensure all pages load directly and navigation works after refresh.
+
+## 18. ERROR, LOADING, AND SUCCESS STATES
+
+Provide polished states for:
+
+- Mobile navigation.
+- Gallery loading.
+- Image failures.
+- Contact form submission.
+- Form validation errors.
+- Successful form submission.
+- Failed form submission.
+- Empty menu data.
+- Missing business details.
+- Missing gallery photographs.
+
+When an image fails to load, show a visually appropriate fallback rather than a broken-image icon.
+
+When menu data is unavailable, display a friendly message instead of invented menu items.
+
+When business details are incomplete, do not present the missing information as confirmed.
+
+Do not simulate successful contact submissions.
+
+## 19. FINAL QUALITY ASSURANCE
+
+Before considering the website complete, verify:
+
+1. All required pages exist.
+2. Navigation works.
+3. The layout is responsive.
+4. The correct business name appears consistently.
+5. Business details remain editable.
+6. All visible buttons work.
+7. The directions link uses the correct destination.
+8. No unverified phone number appears.
+9. No invented menu or price is published as genuine.
+10. No fabricated reviews or statistics appear.
+11. Images load correctly.
+12. Image licensing is appropriate.
+13. Forms have proper validation and submission behavior.
+14. Keyboard navigation works.
+15. Color contrast is sufficient.
+16. Reduced-motion preferences are respected.
+17. There are no obvious console errors.
+18. There are no broken internal links.
+19. SEO metadata is present.
+20. Structured data contains only accurate information.
+21. Mobile pages have no horizontal overflow.
+22. The site does not contain fake functionality.
+23. Loading, error, and success states are appropriate.
+24. The website looks polished at common screen sizes.
+
+## 20. FINAL DELIVERABLE
+
+Produce a complete, working, responsive website for KS CAFE.
+
+The result must include:
+
+- All required pages.
+- A consistent brand identity.
+- A professional logo concept.
+- Responsive navigation.
+- The complete homepage.
+- Editable menu components.
+- About page.
+- Gallery.
+- Contact and location page.
+- Appropriate calls to action.
+- Functional navigation and interactions.
+- Basic local SEO.
+- Accessible forms and interface components.
+- Optimized imagery.
+- Mobile-specific actions.
+- Reusable components.
+- Editable business configuration.
+- Proper loading, success, and error states.
+- Clear instructions for replacing placeholder content.
+
+Prioritize a visually impressive first impression, authentic presentation, easy navigation, and a strong mobile experience.
+
+This is a client-presentable demonstration intended for a real café owner.
+
+**Build the actual website, not merely a mockup, design description, or static screenshot.**
+
+Start by establishing the design system and editable business configuration, then implement the pages and interactions, and finally test the entire experience.
+
+Where verified business information is missing, preserve an editable placeholder and document what the owner must provide before launch.
